@@ -1,0 +1,4 @@
+yo yo yo
+
+mount.cifs //server/share /mnt -o user=boettcher,file_mode=0600
+works for me on linux client and an XP server. More information: man smbmount or man mount.cifs
